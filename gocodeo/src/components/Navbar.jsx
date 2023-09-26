@@ -40,15 +40,17 @@ export default function Navbar() {
           <ul className="nav-menu-items" onClick={showSidebar}>
            
             <li className="navbar-toggle">
-            
+             
               <Link to="#" className="menu-bars">
                 <span className="logo"> 
+                 
                   <p>contour</p>
+                  <AiIcons.AiOutlineClose />
                 </span>
-                <AiIcons.AiOutlineClose />
+                
               </Link>
             </li>
-
+            <div className="navlist">
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
@@ -59,6 +61,10 @@ export default function Navbar() {
                 </li>
               );
             })}
+             
+             
+            </div>
+            
           </ul>
         </nav>
       </IconContext.Provider>

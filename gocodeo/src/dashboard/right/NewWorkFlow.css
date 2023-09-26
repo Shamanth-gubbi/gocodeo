@@ -7,10 +7,59 @@
     flex-wrap: wrap;
     height: 518px;
     width: 100%;
-    background-color:rgb(52, 49, 49);
+    background-color:rgb(29, 27, 27);
     border-radius: 1em;
     color: aliceblue;
     margin-top: 10px;
     justify-content: center;
 
+}
+.top-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+
+}
+.ip1{
+    background-color: rgb(76, 75, 75);
+    border-radius: 0.5em;
+    margin: 10px;
+    height: 50px;
+    width: 40%;
+}
+.ip2{
+    background-color: rgb(76, 75, 75);
+    border-radius: 0.5em;
+    margin: 10px;
+    height: 50px;
+    width: 400px;
+}
+.ip-header{
+    font-size: 40px;
+    margin-left:-90px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1em;
+  }
+  
+  .button1 {background-color: #9763f6;
+    margin-top: 40px;
+    width: 50%;
 }

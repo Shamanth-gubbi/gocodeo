@@ -40,5 +40,24 @@ export const SidebarData = [
     path: "/support",
    
     cName: "nav-text"
+  },
+  {
+    title: "     ",
+    path: "/support",
+   
+    cName: "nav-bot"
+  },
+  {
+    title: "      ",
+    path: "/support",
+   
+    cName: "nav-bot"
+  },
+  {
+    title: "  ",
+    path: "/support",
+   
+    cName: "nav-bot"
   }
+
 ];
