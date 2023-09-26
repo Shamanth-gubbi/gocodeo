@@ -1,0 +1,24 @@
+.DeployedAgents{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* align-items: center; */
+    /* vertical-align:middle; */
+    flex-wrap: wrap;
+    
+    /* justify-content: center; */
+}
+.TotalTestRun{
+    width: 410px;
+    height: 160px;
+    border-radius: 1em;
+    margin: 10px;
+    background-color: rgb(46, 174, 46);
+}
+.CurrentPassRate{
+    width: 410px;
+    height: 160px;
+    border-radius: 1em;
+    margin: 10px;
+    background-color:orange;
+}
